@@ -1,6 +1,6 @@
+import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import {API_KEY,GEOCODE_KEY} from '../config.js'
-// import {LOCATIONS} from '../data/locations.js'
 import {LOCATIONS_DATA} from '../data/locations-data.js'
 import Marker from './Marker/Marker.js'
 import Geocode from "react-geocode";
