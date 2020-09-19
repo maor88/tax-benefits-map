@@ -8,7 +8,7 @@ const Marker = (props) => {
     setHover(isHover)
   }
   return (
-    <div className="marker" style={isHover? {width:40,height:40} : {width:30,height:30}} onMouseEnter = {()=>setHoverHandler(true)} onMouseLeave = {()=>setHoverHandler(false)}>
+    <div className="marker" style={isHover? {width:50,height:50} : {width:35,height:35}} onMouseEnter = {()=>setHoverHandler(true)} onMouseLeave = {()=>setHoverHandler(false)}>
         <div className ='name'>{name}</div>
         <div className ='tax'>{tax}</div> 
       </div>
