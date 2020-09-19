@@ -3,7 +3,7 @@ import './style.css';
 
 const Marker = (props) => {
   const [isHover,setHover] = useState(false)
-  const { color, name, tax } = props;
+  const { name, tax } = props;
   const setHoverHandler = isHover => {
     setHover(isHover)
   }
